@@ -77,7 +77,6 @@ body {
 /* MENU SECTION */
 .header {
   border-bottom: 1px solid #ececec;
-  max-height: 180px;
 }
 
 .logo-header {
@@ -233,6 +232,7 @@ body {
 /* ABOUT US */
 .about-us {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .about-us-list {
@@ -322,7 +322,7 @@ body {
   color: #ffffff;
 }
 
-.footer-list {
+.footer-list:not(:first-child) {
   margin-top: 9px;
 }
 
@@ -386,16 +386,15 @@ body {
   margin-right: 9px;
 }
 
-.port-button {
-  margin-right: 480px;
-  margin-left: 480px;
-  margin-bottom: 50px;
+.port-gallery-button {
+  margin-bottom: 94px;
   margin-top: 94px;
 }
 
 .port-nav {
   display: flex;
   align-items: center;
+  margin-bottom: 34px;
 }
 
 /* GALLERY SECTION */
@@ -413,10 +412,6 @@ body {
   line-height: 1;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-.port-gallery {
-  margin-bottom: 94px;
 }
 
 .port-gallery-list {
@@ -439,4 +434,5 @@ body {
 .portfolio-img-list {
   margin-left: 30px;
   margin-top: 34px;
+  max-width: 370px;
 }
