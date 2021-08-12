@@ -76,9 +76,8 @@ body {
 
 /* MENU SECTION */
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
   border-bottom: 1px solid #ececec;
+  max-height: 180px;
 }
 
 .logo-header {
@@ -101,6 +100,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  padding: 32px 0;
+  display: block;
 }
 
 .menu-link:hover,
@@ -133,7 +134,16 @@ body {
   color: var(--accent-color);
 }
 
-.menu-tel {
+.menu-contacts {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-contacts-list:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -150,10 +160,7 @@ body {
 /* SERVICE SECTION */
 .service {
   background-color: var(--block-color);
-  padding-left: 200px;
-  padding-right: 237px;
-  padding-left: 237px;
-  padding-top: 197px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
@@ -166,6 +173,9 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 30px;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .studio-button {
@@ -191,12 +201,11 @@ body {
 .all-the-benefits-list {
   display: flex;
   margin-left: -30px;
-  margin-top: -94px;
 }
 
 .benefit {
   margin-left: 30px;
-  margin-top: 94px;
+  max-width: 270px;
 }
 
 .benefits {
@@ -222,21 +231,19 @@ body {
 }
 
 /* ABOUT US */
+.about-us {
+  padding-top: 94px;
+}
+
 .about-us-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -50px;
 }
 
 .img-about-us {
   margin-left: 30px;
-  margin-top: 50px;
-}
-
-.about-us {
-  padding-top: 92px;
-  padding-bottom: 94px;
+  max-width: 370px;
 }
 
 .title-about-us {
@@ -261,19 +268,18 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .team-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -50px;
 }
 
 .staff-list {
   margin-left: 30px;
-  margin-top: 50px;
+  max-width: 270px;
 }
 
 .co-worker {
@@ -304,6 +310,7 @@ body {
 .footer {
   background-color: var(--block-color);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -316,8 +323,7 @@ body {
 }
 
 .footer-list {
-  padding-top: 20px;
-  padding-bottom: 60px;
+  margin-top: 9px;
 }
 
 .footer-address {
@@ -327,7 +333,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
-  padding-bottom: 9px;
+  margin-top: 20px;
 }
 
 .footer-mail {
