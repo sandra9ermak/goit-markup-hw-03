@@ -326,6 +326,10 @@ body {
   margin-top: 9px;
 }
 
+.adress-block {
+  margin-top: 20px;
+}
+
 .footer-address {
   font-style: normal;
   font-weight: normal;
@@ -333,7 +337,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-top: 20px;
 }
 
 .footer-mail {
@@ -387,14 +390,14 @@ body {
 }
 
 .port-gallery-button {
-  margin-bottom: 94px;
-  margin-top: 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .port-nav {
   display: flex;
-  align-items: center;
-  margin-bottom: 34px;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 /* GALLERY SECTION */
@@ -418,7 +421,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -34px;
+  margin-top: -30px;
 }
 
 .port-img-description {
@@ -426,13 +429,10 @@ body {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   border-top: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
 }
 
 .portfolio-img-list {
   margin-left: 30px;
-  margin-top: 34px;
-  max-width: 370px;
+  margin-top: 30px;
 }
